@@ -1,4 +1,4 @@
-# Script 1 (Checkerboard)
+# Script 1: Environment initialization and initial plotting (Checkerboard)
 
 import numpy as np
 import cv2
