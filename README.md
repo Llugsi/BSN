@@ -27,7 +27,7 @@ The framework is organized as follows to guarantee standalone modular execution:
 
 ```text
 ├── data/
-│   └── archive/              # Destination folder for downloaded .tar volumes (Git-ignored)
+│   └── archive/              # Destination folder for downloaded and extracted volumes (Git-ignored)
 ├── src/
 │   ├── ptk1_geometric/       # Experiment PtK1: Synthetic Checkerboard + I.I.D. Gaussian Noise
 │   ├── ptk2_cellular/        # Experiment PtK2: Procedural Tissue + Confocal Poisson-Gaussian Noise
@@ -58,17 +58,14 @@ All the structural targets must be downloaded strictly from the official Notre D
   * `TwoPhoton_BPAE_B.tar`
   * `WideField_BPAE_B.tar`
 
-### 2. Manual Placement
-Place all three unextracted `.tar` volumes directly inside the following folder path within your cloned local repository workspace:
+### 2. Manual Placement & Extraction
+Create the tracking directories locally and manually decompress all three downloaded archives so that their raw and ground-truth subfolders align directly within your repository workspace:
 ```bash
-data/archive/
+mkdir -p data/archive
+# Extract the contents of all .tar packages here manually
 ```
+Ensure the uncompressed outputs are correctly structured under `data/FMD_dataset/` as expected by the pipeline dataloaders.
 
-### 3. Automated Environmental Alignment
-Execute the specialized unpacking assistant to extract and structure the sensor imagery on your local machine:
-```bash
-python src/setup_data.py
-```
 *Note: The complete `data/` directory is isolated using local `.gitignore` rules, preventing giant scientific matrices from contaminating downstream git tracking loops.*
 
 ---
@@ -108,8 +105,9 @@ python scripts_plot/macro_plotter_sota.py
 ---
 
 ## 📑 References & Citations
-
 [1] S. Howard, V. Mannam, Y. Zhang, and Y. Zhu, "Fluorescence Microscopy Denoising (FMD) dataset," University of Notre Dame, 2020. [Online]. Available: https://nd.edu
+
+For **LaTeX/BibTeX** reference management software implementations, integrate the following entry:
 
 ---
 
