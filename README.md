@@ -1,4 +1,4 @@
-# Self-Supervised Blind-Spot Networks with Enhanced Geometrical Lattice Continuity for Fast Image Denoising
+# Self-Supervised Blind-Spot Networks With Strict Lattice Continuity and Verified Hermeticity For Image Restoration
 
 [![License](https://shields.io)](https://opensource.org)
 [![Python 3.10+](https://shields.io)](https://python.org)
