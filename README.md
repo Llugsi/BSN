@@ -98,7 +98,11 @@ python src/ptk3_seismic/06_deep_sota_benchmarks.py
 ```
 
 ### 3. Reproducing Paper Metrics and Figures
-Once the evaluation logs (`.csv`) for all scenarios are computed, run the row-wise meta-plotter to reconstruct the definitive publication bar-charts featuring 45-degree tilted legends:
+Once the evaluation logs (`.csv`) for all scenarios are computed, run the row-wise meta-plotter to reconstruct the definitive publication bar-charts featuring 45-degree tilted legends and to obtain :
+
+```bash
+python scripts_plot/macro_plotter_sota.py
+```
 ```bash
 python scripts_plot/macro_plotter_sota.py
 ```
