@@ -53,7 +53,7 @@ To keep the repository lightweight and comply with hosting constraints, the **8.
 
 ### 1. Download Instructions
 All the structural targets must be downloaded strictly from the official Notre Dame repository link:
-* **Download Source Link:** [CurateND - Fluorescence Microscopy Denoising (FMD) dataset](https://nd.edu)
+* **Download Source Link:** [CurateND - Fluorescence Microscopy Denoising (FMD) dataset](https://doi.org/10.7274/r0-ed2r-4052)
 * **Required Volumes:** Download the following three specific compressed files:
   * `Confocal_BPAE_B.tar`
   * `TwoPhoton_BPAE_B.tar`
@@ -110,7 +110,7 @@ python scripts_plot/complexity_metrics.py
 ---
 
 ## 📑 References & Citations
-[1] S. Howard, V. Mannam, Y. Zhang, and Y. Zhu, "Fluorescence Microscopy Denoising (FMD) dataset," University of Notre Dame, 2020. [Online]. Available: https://nd.edu
+[1] S. Howard, V. Mannam, Y. Zhang, and Y. Zhu, "Fluorescence Microscopy Denoising (FMD) dataset," University of Notre Dame, 2020. [Online]. Available: https://doi.org/10.7274/r0-ed2r-4052
 
 For **LaTeX/BibTeX** reference management software implementations, integrate the following entry:
 
