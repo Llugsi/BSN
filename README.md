@@ -114,3 +114,5 @@ For **LaTeX/BibTeX** reference management software implementations, integrate th
 
 ## 📄 License
 This project is licensed under the **Apache License 2.0**. See the `LICENSE` file for full terms and patent protection details.
+
+For inquiries regarding corporate data integrations, hardware stream adjustments, or replication issues, please open an issue in this repository or contact the corresponding author at ricardo.llugsi@epn.edu.ec.
