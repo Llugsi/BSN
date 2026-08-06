@@ -29,7 +29,6 @@ The framework is organized as follows to guarantee standalone modular execution:
 ├── data/
 │   └── archive/              # Destination folder for downloaded .tar volumes (Git-ignored)
 ├── src/
-│   ├── setup_data.py         # Automated dataset verification and extraction assistant
 │   ├── ptk1_geometric/       # Experiment PtK1: Synthetic Checkerboard + I.I.D. Gaussian Noise
 │   ├── ptk2_cellular/        # Experiment PtK2: Procedural Tissue + Confocal Poisson-Gaussian Noise
 │   ├── ptk3_seismic/         # Experiment PtK3: Rectangular Seismic Horizontals (512x256) + Marine Attenuation
