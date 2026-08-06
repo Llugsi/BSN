@@ -1,0 +1,17 @@
+# PyTorch Deep Learning Framework (Core)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical Matrix Computation and Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Scientific Image Processing and Metrics (PSNR/SSIM)
+scikit-image>=0.20.0
+opencv-python>=4.7.0
+
+# Classical SOTA Denoising Benchmark
+bm3d>=4.0.0
+
+# Publication-Ready Visualization and Plotting
+matplotlib>=3.7.0
