@@ -39,6 +39,8 @@ The framework is organized as follows to guarantee standalone modular execution:
 │   ├── plot_ptk3.py          # Individual convergence profile plotter for PtK3
 │   ├── plot_ptk4.py          # Individual convergence profile plotter for PtK4
 │   ├── complexity_metrics.py # Unified Audit and Profile Engine
+│   ├── Blind_Spot_Diagram.py # Create Blind Spot Diagram
+│   ├── SelfSup_BSN_Layout.py # Create Self Supervised BSN Layout
 │   └── macro_plotter_sota.py # SOTA Automated Row-Wise Macro-Plotter with 45° tilted tags
 ├── .gitignore                # Security data shield preventing heavy file tracking
 ├── requirements.txt          # Python ecosystem package dependency locking
