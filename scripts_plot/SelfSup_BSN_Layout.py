@@ -1,6 +1,6 @@
 # Self-Supervised BSN (Perfect HALT Box Bounds Layout)
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 import matplotlib.patches as patches
 
 # Canvas configuration optimized for massive visibility in IEEE templates
